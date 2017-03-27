@@ -6,4 +6,5 @@ matrix:
   - go: 1.8
     script:
       - go get -v github.com/Masterminds/glide
+      - glide -v
       - false
